@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - ArchStudio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">ArchStudio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects-hero">
+        <div class="container">
+            <h1 style="color: white !important;">Our Portfolio</h1>
+            <p>Explore our diverse range of architectural projects</p>
+        </div>
+    </section>
+
+    <section class="projects-grid-page">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="public">Public</button>
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-item" data-category="residential">
+                    <div class="project-image-large" style="background-image: url('images/img/arc1.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="project-info">
+                        <h3>Modern Hillside Villa</h3>
+                        <p>Residential • 2023</p>
+                        <p>A contemporary villa featuring sustainable materials and panoramic views.</p>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="commercial">
+                    <div class="project-image-large" style="background-image: url('images/img/arc2.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="project-info">
+                        <h3>Urban Office Tower</h3>
+                        <p>Commercial • 2022</p>
+                        <p>45-story office building with innovative green spaces and energy-efficient design.</p>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="public">
+                    <div class="project-image-large" style="background-image: url('images/img/arc3.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="project-info">
+                        <h3>Community Arts Center</h3>
+                        <p>Public • 2023</p>
+                        <p>Multi-purpose cultural space designed for community engagement and artistic expression.</p>
+                    </div>
+                </div>
+                
+                <div class="project-item" data-category="residential">
+                    <div class="project-image-large" style="background-image: url('images/img/arc4.jpg'); background-size: cover; background-position: center;"></div>
+                    <div class="project-info">
+                        <h3>Lakeside Retreat</h3>
+                        <p>Residential • 2022</p>
+                        <p>Minimalist design harmonizing with the natural lakeside environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
